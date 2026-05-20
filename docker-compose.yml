@@ -1,6 +1,6 @@
 services:
   ctfd:
-    build: .
+    image: ctfd/ctfd:3.8.5
     restart: always
     environment:
       - UPLOAD_FOLDER=/var/uploads
